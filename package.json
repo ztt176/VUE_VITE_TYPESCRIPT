@@ -1,0 +1,28 @@
+{
+  "name": "vue3-vite-typescript",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --mode dev",
+    "test": "vite --mode test",
+    "build": "vue-tsc --noEmit && tsc --noEmit && vite build --mode prod",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "element-plus": "^2.3.9",
+    "pinia": "^2.1.6",
+    "pinia-plugin-persist": "^1.0.0",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.0",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "stylus": "^0.59.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vue-tsc": "^1.8.5"
+  }
+}
